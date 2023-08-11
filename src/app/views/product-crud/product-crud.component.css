@@ -1,0 +1,10 @@
+button {
+  margin-bottom: 30px;
+  box-shadow: 1px 1px 3px #444;
+  width: 200px;
+}
+
+.novo-button {
+  background-color: #00a2ff;
+  text-shadow: 1px 1px 3px #222;
+}

@@ -1,0 +1,25 @@
+table {
+  width: 100%;
+}
+
+th {
+  text-transform: uppercase;
+}
+
+a:hover {
+  opacity: .6;
+}
+
+.edit {
+  margin-right: 10px;
+}
+
+.edit>i {
+  color: #d9cd26;
+  text-shadow: 1px 1px 3px #222;
+}
+
+.delete>i {
+  color: #e35e6b;
+  text-shadow: 1px 1px 3px #222;
+}

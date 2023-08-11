@@ -1,0 +1,19 @@
+<mat-card class="card">
+  <mat-card-title class="title">Alterar Produto</mat-card-title>
+  <form>
+    <mat-form-field>
+      <mat-label>Nome</mat-label>
+      <input type="text" [(ngModel)]="product.name" name="name" matInput>
+    </mat-form-field>
+    <mat-form-field>
+      <mat-label>Preço (R$)</mat-label>
+      <input type="number" [(ngModel)]="product.price" name="price" matInput>
+    </mat-form-field>
+  </form>
+</mat-card>
+<button (click)="updateProduct()" class="success" mat-button>
+  Atualizar
+</button>
+<button (click)="cancel()" class="warn" mat-button>
+  Cancelar
+</button>

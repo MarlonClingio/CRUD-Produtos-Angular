@@ -1,0 +1,27 @@
+form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+button {
+  margin: .5rem .3rem;
+  width: 100px;
+  box-shadow: 1px 1px 3px #444;
+}
+
+.cancel {
+  background-color: #d9cd26;
+  text-shadow: 1px 1px 3px #222;
+}
+
+.warn {
+  background-color: #a72828;
+  color: #fff;
+  text-shadow: 1px 1px 3px #222;
+}
+
+.card .title {
+  padding: .7rem;
+  font-size: 1.7rem;
+}
